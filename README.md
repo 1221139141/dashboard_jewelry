@@ -1,1 +1,1 @@
-## a dashboard to help small businesses.
+## A dashboard to help small businesses.
