@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 
-.buttonNavbar:hover button {
+.buttonNavbar:hover>button {
     background-color: #F9F9F9;
     color: #636363;
     height: 40px;
