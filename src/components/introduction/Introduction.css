@@ -1,6 +1,7 @@
 .introContainer {
     height: 495px;
     display: flex;
+    width: 100%;
 }
 
 .introContainer h2 {
@@ -12,10 +13,10 @@
 
 .leftContainer,
 .rightContainer {
-    height: 100%;
     width: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    padding: 5%;
 }
