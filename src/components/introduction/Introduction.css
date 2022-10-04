@@ -1,0 +1,21 @@
+.introContainer {
+    height: 495px;
+    display: flex;
+}
+
+.introContainer h2 {
+    color: goldenrod;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: start;
+}
+
+.leftContainer,
+.rightContainer {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

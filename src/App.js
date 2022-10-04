@@ -1,9 +1,14 @@
 import './App.css';
+import Header from './pages/header/Header';
+import Body from './pages/body/Body';
+import Footer from './pages/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <p>Début du projet</p>
+      <Header/>
+      <Body/>
+      <Footer/>
     </div>
   );
 }
