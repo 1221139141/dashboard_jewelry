@@ -14,6 +14,19 @@
     cursor: pointer;
 }
 
-.buttonNavbar:hover {
+.buttonNavbar:hover button {
     background-color: #F9F9F9;
+    color: #636363;
+    height: 40px;
+    width: 140px;
+
+    border: none;
+    border-radius: 6px;
+
+    letter-spacing: .1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
 }
