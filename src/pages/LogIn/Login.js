@@ -38,7 +38,7 @@ export default function Login({setAdmin}) {
   <form onSubmit={handleFormLogIn}>
     <input 
     value={username}
-    type="password" 
+    type="text" 
     placeholder="admin" 
     onChange={(event) => setUsername(event.target.value)}
     />
