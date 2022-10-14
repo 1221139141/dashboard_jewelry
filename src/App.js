@@ -26,7 +26,7 @@ function App() {
       <Header token={token} setAdmin={setAdmin} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profil" element={<Profil token={token} />} />
+        <Route path="/profil" element={<Profil token={token} setAdmin={setAdmin} />} />
         <Route path="/inscription" element={<TestSignup setAdmin={setAdmin} />}/>
         <Route path="/connexion" element={<Login setAdmin={setAdmin} />} />
       </Routes>
