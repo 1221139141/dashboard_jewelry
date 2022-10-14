@@ -1,8 +1,9 @@
-export default function Profil() {
-
-return (
+export default function Profil({ token }) {
+  return token ? (
     <div>
-        <h1>Profil</h1>
+      <p>Salut {username}</p>
     </div>
-    );
-};
+  ) : (
+    <Navigate to="/" />
+  );
+}
