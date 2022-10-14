@@ -11,6 +11,8 @@ import TestSignup from "./pages/testSignup/TestSignup";
 
 function App() {
   const [token, setToken] = useState(null);
+  
+  const [name, setName] = useState(null);
 
   const setAdmin = (token) => {
     if (token !== null) {
@@ -21,12 +23,16 @@ function App() {
     setToken(token);
   };
 
+  const username = (username) => {
+    setName(username);
+  };
+
   return (
     <div className="App">
       <Header token={token} setAdmin={setAdmin} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profil" element={<Profil token={token} setAdmin={setAdmin} />} />
+        <Route path="/profil" element={<Profil token={token} setAdmin={setAdmin} username={username}/>} />
         <Route path="/inscription" element={<TestSignup setAdmin={setAdmin} />}/>
         <Route path="/connexion" element={<Login setAdmin={setAdmin} />} />
       </Routes>

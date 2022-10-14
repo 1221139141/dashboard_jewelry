@@ -27,6 +27,10 @@ export default function Login({setAdmin}) {
           navigate("/profil");
         }
 
+        if(response.data.username) {
+          console.log(response.data.username)
+        }
+
     } catch (error) {
       console.log(error.response.status);
     }
